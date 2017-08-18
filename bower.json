@@ -1,0 +1,20 @@
+{
+  "name": "zoo-tracker",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Nathan Stewart <stewart.nathang@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/GStewartN/zoo-tracker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
