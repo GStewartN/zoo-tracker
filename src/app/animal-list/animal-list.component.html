@@ -1,0 +1,18 @@
+<div class="well">
+<h1 class="header">Zoo Tracker</h1>
+</div>
+<div class="well">
+  <ul *ngFor="let currentAnimal of childAnimalList">
+    <div class="box">
+      <li><h2>{{currentAnimal.species}}</h2></li>
+      <li><h4>{{currentAnimal.name}}</h4></li>
+      <li><h4>{{currentAnimal.age}}</h4></li>
+      <li><h4>{{currentAnimal.diet}}</h4></li>
+      <li><h4>{{currentAnimal.location}}</h4></li>
+      <li><h4>{{currentAnimal.caretakers}}</h4></li>
+      <li><h4>{{currentAnimal.sex}}</h4></li>
+      <li><h4>{{currentAnimal.likes}}</h4></li>
+      <li><h4>{{currentAnimal.dislikes}}</h4></li>
+    </div>
+  </ul>
+</div>
