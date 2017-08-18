@@ -26,3 +26,40 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Planning
+
+1. Configuration/Dependencies
+ * angular-cli
+ * bower
+ * bootstrap
+
+2. Specifications
+
+| Behavior | Input | Output |
+|----------|-------|--------|
+| add animal to list | ... | ... |
+| edit animals | ... | ... |
+| filter animals | ... | ... |
+| list animals | ... | ... |
+
+3. Integration
+
+ * animal model
+ * animal-list component
+ * animal-edit component
+ * new-animal component
+ * filter pipe
+
+4. UX/UI
+
+ * add bootstrap
+ * style page
+
+5. Polish
+
+ * refactor
+ * remove whitespace
+ * proofread/edit text
+ * clean indentation/spacing
+ * polish readme
