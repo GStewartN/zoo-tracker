@@ -1,42 +1,44 @@
 <div class="well">
-  <h1>Add Animal</h1>
-  <div>
-    <input #newSpecies>
-    <label>Species</label>
-  </div>
-  <div>
-    <input #newName>
-    <label>Name</label>
-  </div>
-  <div>
-    <input type="number" #newAge>
-    <label>Age</label>
-  </div>
-  <div>
-    <input #newDiet>
-    <label>Diet</label>
-  </div>
-  <div>
-    <input #newLocation>
-    <label>Location</label>
-  </div>
-  <div>
-    <input type="number" #newCaretakers>
-    <label>Caretakers</label>
-  </div>
-  <div>
-    <input #newSex>
-    <label>Sex</label>
-  </div>
-  <div>
-    <input #newLikes>
-    <label>Likes</label>
-  </div>
-  <div>
-    <input #newDislikes>
-    <label>Dislikes</label>
-  </div>
-  <div>
-  <button (click)="submitForm(newSpecies.value, newName.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLikes.value, newDislikes.value); newSpecies.value=''; newName.value=''; newAge.value=0; newDiet.value=''; newLocation.value=''; newCaretakers.value=0; newSex.value=''; newLikes.value=''; newDislikes.value='';">Add</button>
+  <div class="boxFeature">
+    <h2>Add Animal</h2>
+    <div>
+      <input #newSpecies>
+      <label>Species</label>
+    </div>
+    <div>
+      <input #newName>
+      <label>Name</label>
+    </div>
+    <div>
+      <input type="number" #newAge>
+      <label>Age</label>
+    </div>
+    <div>
+      <input #newDiet>
+      <label>Diet</label>
+    </div>
+    <div>
+      <input #newLocation>
+      <label>Location</label>
+    </div>
+    <div>
+      <input type="number" #newCaretakers>
+      <label>Caretakers</label>
+    </div>
+    <div>
+      <input #newSex>
+      <label>Sex</label>
+    </div>
+    <div>
+      <input #newLikes>
+      <label>Likes</label>
+    </div>
+    <div>
+      <input #newDislikes>
+      <label>Dislikes</label>
+    </div>
+    <div>
+    <button (click)="submitForm(newSpecies.value, newName.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLikes.value, newDislikes.value); newSpecies.value=''; newName.value=''; newAge.value=0; newDiet.value=''; newLocation.value=''; newCaretakers.value=0; newSex.value=''; newLikes.value=''; newDislikes.value='';">Add</button>
+    </div>
   </div>
 </div>

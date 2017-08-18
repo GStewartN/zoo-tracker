@@ -2,7 +2,7 @@
 <h1 class="header">Zoo Tracker</h1>
 </div>
 <div class="well">
-  <h1>Resident Animals</h1>
+  <h2>Resident Animals</h2>
   <h5>Filter By Age</h5>
   <select class="drop" (change)="onChange($event.target.value)">
     <option value="allAnimals" selected="selected">All Animals</option>
@@ -12,14 +12,14 @@
   <ul *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
     <div class="box">
       <li><h2>{{currentAnimal.species}}</h2></li>
-      <li><h4>{{currentAnimal.name}}</h4></li>
-      <li><h4>{{currentAnimal.age}}</h4></li>
-      <li><h4>{{currentAnimal.diet}}</h4></li>
-      <li><h4>{{currentAnimal.location}}</h4></li>
-      <li><h4>{{currentAnimal.caretakers}}</h4></li>
-      <li><h4>{{currentAnimal.sex}}</h4></li>
-      <li><h4>{{currentAnimal.likes}}</h4></li>
-      <li><h4>{{currentAnimal.dislikes}}</h4></li>
+      <li><h4>Name: {{currentAnimal.name}}</h4></li>
+      <li><h4>Age: {{currentAnimal.age}}</h4></li>
+      <li><h4>Diet: {{currentAnimal.diet}}</h4></li>
+      <li><h4>Location: {{currentAnimal.location}}</h4></li>
+      <li><h4>Caretakers: {{currentAnimal.caretakers}}</h4></li>
+      <li><h4>Sex: {{currentAnimal.sex}}</h4></li>
+      <li><h4>Likes: {{currentAnimal.likes}}</h4></li>
+      <li><h4>Dislikes: {{currentAnimal.dislikes}}</h4></li>
       <button (click)="editButtonHasBeenClicked(currentAnimal)">Edit</button>
     </div>
   </ul>
