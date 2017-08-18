@@ -18,5 +18,4 @@ export class EditAnimalComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

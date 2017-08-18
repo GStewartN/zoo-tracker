@@ -17,5 +17,4 @@ export class NewAnimalComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
