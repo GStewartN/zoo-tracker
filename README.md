@@ -17,6 +17,9 @@ You will need the following things properly installed on your computer.
 * [Node.js](https://nodejs.org/) (with NPM)
 * [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
 
+* Once installed, you will need to install bower globally:
+ * `$ npm install bower -g`
+
 ## Configuration/Dependencies
 
 * angular-cli
@@ -60,6 +63,13 @@ Before running the tests make sure you are serving the app via `ng serve`.
 | add animal to list | user fills out add animal form and clicks add button | new animal displays in current animal residents list |
 | edit animals | user clicks an animal edit button, makes changes in the form, and clicks done | animal displays in current animal resident list with new values |
 | filter animals | user chooses one of the filter options from dropdown list | resident animal list displays only animals that meet filter parameters |
+
+## Feature Possibilities
+
+ * Routing edit functionality to an animal's individual page.
+ * Hide the add animal form behind a button and only display when button is clicked.
+ * Routing the add animal form to its own page.
+ * Add project to firebase so new animals are saved permanently.
 
 ## Further help
 
